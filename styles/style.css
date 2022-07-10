@@ -41,7 +41,8 @@ body {
 }
 
 footer {
-    position: absolute;
+    display: block;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -50,9 +51,15 @@ footer {
     text-align:center;
 }
 
+footer a, img {
+    align-content: center;
+    display: inline;
+    white-space: nowrap;
+}
+
 footer p {
-    text-align: right;
-    right: 5%;
+    white-space: nowrap;
+    display: inline;
 }
 
 /* ////////////////// */
