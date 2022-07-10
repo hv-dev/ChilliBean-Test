@@ -1,5 +1,6 @@
 /* ////////////////// */
 /* Section to affect ALL pages */
+
 html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -40,10 +41,18 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+.h1 {
+    width: fit-content;
+    height: 25px;
+    padding: 2px 10px;
+    border-radius: 25px;
+    background-color: hsl(12, 70%, 45%);
+    color: hsl(0,0,100%);
+}
+
 footer {
     display: block;
-    position: static;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: hsl(0, 0%, 20%);
@@ -92,23 +101,35 @@ footer p {
     color: hsl(220, 0%, 90%);
 }
 
-.index-h1 {
-    width: fit-content;
-    height: 25px;
-    padding: 2px 10px;
-    border-radius: 25px;
-    background-color: hsl(12, 70%, 45%);
-    color: hsl(0,0,100%);
-}
-
-#index-p1 {
-    font-size: 1em;
-}
-
 /* ////////////////// */
 /* Affects SG1 Page */
 
+.parent {
+    display: flex;
+}
 
+#sg1-text {
+    color: hsl(220, 0%, 90%);
+}
+
+#sg1-synopsis {
+    margin-left: 4%;
+    width: 50%;
+    padding: 0;
+}
+
+#sg1-right_content {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 35%;
+}
+
+#sg1-spotify {
+    border-radius: 12px;
+    
+    margin: 0;
+    padding: 0;
+}
 
 /* ////////////////// */
 /* Affects SGA Page */
