@@ -101,6 +101,10 @@ footer p {
     color: hsl(220, 0%, 90%);
 }
 
+#footer {
+    position: static;
+}
+
 /* ////////////////// */
 /* Affects SG1 Page */
 
